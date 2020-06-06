@@ -1,7 +1,33 @@
-palabra = capitanamerica
+palabra  igual capitanamerica
+posicion igual 0
+buscar igual "palabra Encontrado"
 
-	si letra C es igual a letra en xy
-		avanza con siguiente letra
-                avanza xy
-	si no 
-	avanza x
+mientras posicion sea menor que tamaño de palabra 
+
+	si letra en posicion(x,y) es igual letra en posicion	
+		si letra(x+1,y) es igual palabra en posicion+1
+			incremento x+1
+			increemnto posicion+1
+		si no
+		     si letra(x,y+1) es igual palabra en posicion+1
+			incremento y+1
+			increemnto posicion+1
+		si no
+		     si letra(x-1,y) no esta vacio
+			decremento y-1
+			increemnto igual 0
+		si no
+		     si letra(x,y-1) no esta vacio
+			incremento y+1
+			increemnto posicion+1
+		si no
+		     si letra(x+1,y) no esta vacio
+			avanza x
+		     si no entonces 
+			si letra(x,y+1) no esta vacio
+			avanza y
+		     si no 
+			if(x == tamañoHoriMatrix y Y amañoVertMatrix)
+				buscar es igual "palabra no encontrado"
+
+escribe buscar
