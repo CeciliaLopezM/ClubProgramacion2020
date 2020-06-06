@@ -1,1 +1,24 @@
-vhjbd
+mentras meta sea falso
+
+ evento = evento de una tecla
+
+    si evento es igual MovDerecha
+       si x+1 esta vacio
+       avanza
+    si no entonces 
+    si evento es igual MovIzquiera 
+       si x-1 esta vacio
+       avanza
+    si no entonces 
+    si evento es igual MovNorte
+       si x-1 esta vacio
+       avanza
+    si no entonces 
+    si evento es igual MovSur
+       si x+1 esta vacio
+       avanza 
+
+ si X es igual xFinal and Y es igual yFinal
+	meta es verdadero
+	escribe: llego a meta
+

@@ -1,1 +1,7 @@
-jhfbvjhf
+palabra = capitanamerica
+
+	si letra C es igual a letra en xy
+		avanza con siguiente letra
+                avanza xy
+	si no 
+	avanza x
